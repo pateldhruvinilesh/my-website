@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>gfj</title>
+	<style type="text/css">
+		.maindiv{
+			width: 95%;
+			position: absolute;
+			border: 2px solid gray;
+			top: 20px;
+			left: 20px;
+            color: white;
+            display: grid;
+            grid-template-rows:  ;
+            grid-template-columns: 130px repeat(2, 1fr) 130px;
+            grid-gap: 5px;
+            border: 2px solid grey;
+		}
+		.div1{
+			background-color: #87CEEB;
+			grid-column: 1/-1;
+			
+		}
+		.div2{
+			background-color: #ffffff;
+			grid-row: 2/4;
+		}
+		.div3{
+			background-color: #32CD32;
+			grid-column: 2/3;
+			
+		}
+		.div4{
+			background-color: #da70d6;
+		}
+		.div5{
+			background-color: orange;
+			grid-column: 2/3;
+			
+		}
+		.div6{
+			background-color: orange;
+			grid-column: 3/4;
+
+		}
+		.div7{
+			background-color: white;
+		}
+		.div8{
+			background-color: blue;
+			grid-column: 1/-1;
+		}
+	</style>
+</head>
+<body>
+      <div class="maindiv">
+      	<div class="div1">.header</div>
+      	<div class="div2">vyh</div>
+      	<div class="div3">.main-content</div>
+      	<div class="div4">.sliderbar</div>
+      	<div class="div5">.twin</div>
+      	<div class="div6">.twin</div>
+      	<div class="div7">vyh</div>
+      	<div class="div8">.footer</div>
+      	<div></div>
+      </div>
+</body>
+</html>
